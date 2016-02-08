@@ -1,0 +1,76 @@
+.is-wide-columns .app-columns {
+    padding: 0;
+}
+
+.is-wide-columns .column, .column {
+    border: 0;
+    margin: 0;
+    
+    border-left: 1px solid #292939;
+}
+
+.avatar {
+    border-radius: 0;
+}
+
+.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {
+	border-radius: 0;
+    background-color: #292939;
+}
+
+.scroll-styled-v::-webkit-scrollbar-track, .scroll-styled-h::-webkit-scrollbar-track {
+    border: 0;
+}
+
+.stream-item {
+    border-bottom: 0;
+}
+
+.stream-item:hover {
+    -webkit-box-shadow: 0 0 20px 0px #333342;
+	box-shadow: 0 0 20px 0px #333342;
+}
+
+html {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.column {
+    background-color: #445;
+}
+
+.column-header, .column-header-temp {
+    background-color: #333342;
+    border-bottom: 0;
+    -webkit-box-shadow: 0 0 20px 0px #333342;
+	box-shadow: 0 0 20px 0px #333342;
+}
+
+.app-header, .column-nav-item, .app-navigator, .app-title {
+    background-color: #333342;
+}
+
+.tweet-detail-wrapper {
+    background: transparent;
+}
+.txt-mute, .txt-mute a:not(:hover):not(:focus) {
+    color: #eee;
+}
+
+.scroll-conversation {
+	background: #334;    
+}
+
+.tweet-stats, .tweet-detail-actions, .detail-view-inline {
+    border: 0;
+}
+
+.app-content, .app-columns-container {
+	background-color: #252535;    
+}
+
+.quoted-tweet {
+    background: #292939;
+	border: 0;
+    color: #eee;
+}
